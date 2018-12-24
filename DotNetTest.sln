@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTest", "DotNetTest\DotNetTest.csproj", "{E3B7B1D5-047B-4A0B-A87B-F041C1DF916D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B7B1D5-047B-4A0B-A87B-F041C1DF916D}.Debug|x86.ActiveCfg = Debug|x86
+		{E3B7B1D5-047B-4A0B-A87B-F041C1DF916D}.Debug|x86.Build.0 = Debug|x86
+		{E3B7B1D5-047B-4A0B-A87B-F041C1DF916D}.Release|x86.ActiveCfg = Release|x86
+		{E3B7B1D5-047B-4A0B-A87B-F041C1DF916D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
