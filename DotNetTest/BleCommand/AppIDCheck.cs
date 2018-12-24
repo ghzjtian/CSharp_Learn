@@ -14,7 +14,7 @@ namespace Ble.Command
 
         public AppIDCheck(string address)
         {
-            m_address = address;
+            m_address = address.ToUpper();
         }
 
         public byte[] getIdentificationString() {
@@ -26,7 +26,7 @@ namespace Ble.Command
 
 
             //2.然后用 '格力博专属的id' + 上面的蓝牙地址，用 MD5 加密，得到最后的 12 位字符.
-            String conflict_id = "477fce1580aa3043404ff51fa89b5292";
+            String conflict_id = "GLB specify id";
             StringBuilder optimize_address = new StringBuilder();
             optimize_address.Append(conflict_id);
             foreach (string str in list)
